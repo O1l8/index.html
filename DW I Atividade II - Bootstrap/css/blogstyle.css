@@ -1,0 +1,112 @@
+@font-face {
+    font-family: ;
+    src: url(../font/CasanovaScotia-Xm0K.ttf);
+    font-family: nos;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: nos;
+}
+
+@font-face {
+  font-family: ;
+  src: url(../font/FontsFree-Net-Alexana-Neue.ttf);
+  font-family: alexana;
+}
+
+@font-face {
+  font-family: ;
+  src: url(font/hyperion.ttf);
+  font-family: hyper;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+  }
+  .carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+  #page {
+    background-color: black;
+    padding: 30px 0px;
+}
+
+  #AAGomes h1 {
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+}
+
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+.title p {
+    font-size: 18px;
+}
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card {
+    margin: 20px 10px;
+}
+.card-body a {
+    color: #0c7f90;
+    text-decoration: none;
+    font-size 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.card-body a:hover {
+    color: #63a6b0;
+    text-decoration: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nav-link {
+  font-family: alexana;
+}
+.navbar-brand {
+  font-family: alexana;
+}
+
+ {
+  font-family: hyper;
+}
